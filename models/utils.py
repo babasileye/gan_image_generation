@@ -26,5 +26,5 @@ def generate_and_save_images(generator,test_input,image_name,output_dir):
       plt.subplot(4, 4, i+1)
       plt.imshow((1.0+np.squeeze(predictions[i]))/2.0,cmap='gray')
       plt.axis('off')
-plt.savefig(f'{output_dir}/{image_name}.png')
-plt.show()
+   plt.savefig(f'{output_dir}/{image_name}.png')
+   plt.show()
